@@ -1,0 +1,16 @@
+spring.application.name=backend
+
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://your-host:5432/your-database
+spring.datasource.username=your-username
+spring.datasource.password=your-password
+
+# JPA/Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
+
+# JWT Configuration
+jwt.secret=your-secret-key-here-minimum-32-characters
+jwt.expiration=86400000
+

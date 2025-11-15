@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Dark zinc theme - matching our design */
+    --background: 240 10% 3.9%; /* zinc-950 */
+    --foreground: 0 0% 100%; /* white */
+    --card: 240 3.7% 15.9%; /* zinc-900 */
+    --card-foreground: 0 0% 100%; /* white */
+    --popover: 240 5.9% 10%; /* zinc-900 darker */
+    --popover-foreground: 0 0% 100%; /* white */
+    --primary: 0 0% 100%; /* white */
+    --primary-foreground: 240 10% 3.9%; /* zinc-950 */
+    --secondary: 240 3.7% 15.9%; /* zinc-800 */
+    --secondary-foreground: 0 0% 100%; /* white */
+    --muted: 240 3.7% 15.9%; /* zinc-800 */
+    --muted-foreground: 240 5% 64.9%; /* zinc-400 */
+    --accent: 240 3.7% 15.9%; /* zinc-800 */
+    --accent-foreground: 0 0% 100%; /* white */
+    --destructive: 0 62.8% 30.6%; /* red */
+    --destructive-foreground: 0 0% 100%; /* white */
+    --border: 240 3.7% 15.9%; /* zinc-800 */
+    --input: 240 3.7% 15.9%; /* zinc-800 */
+    --ring: 217.2 91.2% 59.8%; /* blue-500 */
+    --radius: 0.5rem;
+  }
+}
