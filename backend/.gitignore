@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 
 ### Environment and Secrets ###
-src/main/resources/application.properties
+# application.properties now uses env vars, safe to commit
 src/main/resources/application-*.properties
 .env
 .env.local
